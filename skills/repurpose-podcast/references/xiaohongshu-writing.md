@@ -24,7 +24,7 @@ Avoid clickbait that overstates the transcript. Give each content card enough co
 
 ## Themes
 
-The built-in themes translate ten reusable design languages into static social cards. Use their principles rather than copying a reference layout pixel for pixel:
+The built-in themes translate twelve reusable design languages into static social cards. Use their principles rather than copying a reference layout pixel for pixel:
 
 - `visual-hand-drawn`: grid paper, imperfect ink lines, pastel sticky notes, and hard paper shadows. Best for learning, creativity, and personal knowledge.
 - `visual-neo-brutalism`: thick black outlines, saturated candy colors, and clearly offset shadows. Best for bold opinions, startups, and creator content.
@@ -36,6 +36,8 @@ The built-in themes translate ten reusable design languages into static social c
 - `layout-magazine` (default): editorial grid, serif headline, rules, folios, warm paper, and one vermilion accent. Best for interviews, ideas, culture, and business analysis.
 - `retro-futurism`: deep-space navy, cyan and magenta neon, perspective grids, and glowing wireframes. Best for AI, science, and future-facing topics.
 - `core-flat-design`: pure color planes, simple geometry, no material texture, and hierarchy built with size, color, and whitespace. Best for frameworks and practical explainers.
+- `white-collage`: white paper, a thin column frame, wide-tracked sans-serif column headers, one saturated accent color, and numbered body paragraphs. Best for personal product observations, design analysis, and evidence-style note series.
+- `international-grid`: mathematical typographic grid, sans-serif scale jumps (cover 52px / content 40px, weight 700), black-on-white with hairline rules, black-circle paragraph numbers, a rotated edge label, and zero ornament. Cover keywords render as TOC-style lines — left edge aligned to the headline, gray 01/02/03 counters hanging right, spacing by whitespace only, no hairlines on the cover.
 
 Choose one theme based on tone and keep it consistent within a set. `layout-magazine` is the safest content-first default for dense three-paragraph cards; `visual-accessibility` is the safest maximum-readability option. Do not use interaction-led UI styles for exported images. Use the episode cover only when it is available and legally exposed by the source page. Never imply AI-generated decoration is an original episode image.
 

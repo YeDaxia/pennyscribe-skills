@@ -244,9 +244,9 @@ class SkillScriptTests(unittest.TestCase):
             self.assertIn('type="range" min="24" max="76"', html)
             self.assertIn('.cards.layout-mode .card-style-tools{display:grid', html)
             self.assertIn("typography[`${key}_color`]", html)
-            for theme in ("手绘涂鸦", "新粗野主义", "剪纸风格", "中世纪现代", "无障碍设计", "漫画书", "包豪斯", "杂志排版", "复古未来主义", "扁平风格"):
+            for theme in ("手绘涂鸦", "新粗野主义", "剪纸风格", "中世纪现代", "无障碍设计", "漫画书", "包豪斯", "杂志排版", "复古未来主义", "扁平风格", "白底栏目笔记", "瑞士国际主义"):
                 self.assertIn(theme, html)
-            for css in ("theme-visual-neo-brutalism:before{left:auto", "theme-visual-paper-cutout:after{content:none}", "theme-retro-mid-century:before{left:auto", "Centered composition pass", "Natural headline flow", "text-wrap:pretty", "theme-visual-hand-drawn:before{bottom:auto;width:auto}", "theme-visual-accessibility.card-cover:after{left:auto", "theme-visual-comic-book:before{left:auto", "theme-retro-bauhaus:before{left:auto", "theme-layout-magazine.card-cover .body{max-width:100%", "theme-retro-futurism:before{left:48px", "theme-core-flat-design:before{left:auto", "text-wrap:balance"):
+            for css in ("theme-visual-neo-brutalism:before{left:auto", "theme-visual-paper-cutout:after{content:none}", "theme-retro-mid-century:before{left:auto", "Centered composition pass", "Natural headline flow", "text-wrap:pretty", "theme-visual-hand-drawn:before{bottom:auto;width:auto}", "theme-visual-accessibility.card-cover:after{left:auto", "theme-visual-comic-book:before{left:auto", "theme-retro-bauhaus:before{left:auto", "theme-layout-magazine.card-cover .body{max-width:100%", "theme-retro-futurism:before{left:48px", "theme-core-flat-design:before{left:auto", "text-wrap:balance", "theme-white-collage .body p:before", "theme-international-grid.card-cover .body p:after"):
                 self.assertIn(css, html)
             for removed_badge in ('content:"BIG\\A IDEA"', 'content:"SIDE\\A NOTE"', 'content:"PAPER\\A NOTE"', 'content:"KEY\\A POINT"', 'content:"SIGNAL\\A 01"'):
                 self.assertNotIn(removed_badge, html)
